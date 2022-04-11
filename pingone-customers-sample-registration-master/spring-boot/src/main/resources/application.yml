@@ -1,0 +1,53 @@
+server:
+  port: 8080
+  ssl:
+    key-store-type: <key store type>
+    key-store: <path to key>
+    key-store-password: <key store password>
+    key-alias: <key alias>
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    org.springframework.security.oauth2: INFO
+    org.springframework.boot.autoconfigure: INFO
+
+ping:
+  environmentId: 26e57a75-24a6-47fa-9569-960674c072cc
+  registration:
+    # Filter user populations to which the user will belong to while registration
+    filterPopulationByDescription: false
+
+oauth2:
+  client:
+    clientId: dfb43349-7ff3-4470-8aab-0cb80ff7c8af
+    clientSecret: 7UbP3Nkz7.~5hfyd7QxouRhZZgTpfrNL_BHpSvKXBZ3poPUpiSAeTkCbPtKBj4tu
+    accessTokenUri: https://auth.pingone.com/26e57a75-24a6-47fa-9569-960674c072cc/as/token
+    userAuthorizationUri: https://auth.pingone.com/26e57a75-24a6-47fa-9569-960674c072cc/as/authorize
+    authorizationGrantType: client_credentials
+
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          pingidentity:
+            client-id: 95bc961a-05c9-4e64-8450-b498f6a414cb
+            client-secret: oy1t.Kupwqt.hZKxF3-5dYGTR7QVcv_JX6TkcFbSIff34emcs1iRk9BUwmJJnTl_
+            provider: pingidentity
+            scope: openid,profile,phone,email,address,p1:reset:userPassword
+            client-authentication-method: post
+            authorization-grant-type: authorization_code
+            redirect-uri-template: "http://localhost:8080/login/oauth2/code/{registrationId}"
+        provider:
+          pingidentity:
+            issuer-uri: https://auth.pingone.com/26e57a75-24a6-47fa-9569-960674c072cc/as
+  mvc:
+    favicon:
+      enabled: false
+
