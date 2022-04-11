@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://op.externaloidc.com:9032" urn:name="External-OIDC" ID="ImiKieFTvOSlo5-T5o5Pv1cUfTo" urn:baseUrl="https://op.externaloidc.com:9032" urn:LogLevel="STANDARD" urn:isActive="true" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:urn="urn:sourceid.org:saml2:metadata-extension:v2">
+    <md:Extensions>
+        <urn:EntityExtension PFVersion="10.0.2.2" LicenseGroup="">
+            <urn:DigitialSignatureAliases/>
+            <urn:Encryption>
+                <urn:EncryptionPolicy EncryptionAlgorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" KeyTransportAlgorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" EncryptAssertion="false" EncryptSubjectNameID="false" SLOEncryptSubjectNameID="false"/>
+                <urn:DecryptionPolicy AssertionEncrypted="false" SubjectNameIDEncrypted="false" AttributeEncrypted="false" SLOSubjectNameIDEncrypted="false"/>
+            </urn:Encryption>
+            <urn:ConnectionTemplateProperties/>
+            <urn:MetadataUrlId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <urn:enableAutoMetadataUpdate>false</urn:enableAutoMetadataUpdate>
+            <urn:AdditionalAllowedEntitiesConfiguration>
+                <urn:AllowAdditionalEntities>false</urn:AllowAdditionalEntities>
+                <urn:AllowAllEntities>false</urn:AllowAllEntities>
+                <urn:AdditionalAllowedEntities/>
+            </urn:AdditionalAllowedEntitiesConfiguration>
+        </urn:EntityExtension>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="OIDC" WantAuthnRequestsSigned="false">
+        <md:Extensions>
+            <urn:RoleExtension ArtifactTimeoutSeconds="60" LastModified="2020-07-16T01:00:24.480Z">
+                <urn:IncomingBindings Artifact="true" POST="true" Redirect="true" SOAP="true"/>
+                <urn:EnabledProfiles IDPInitiatedSSO="true" IDPInitiatedSLO="false" SPInitiatedSSO="true" SPInitiatedSLO="false"/>
+                <urn:IDP AssertionsSigned="false" DefaultTargetResource="http://httpbin.org/anything">
+                    <urn:ConnectionContractMapping C2cContractId="Zxp6N6W5PH9onACT" C2cContractName="simplecontract" RestrictVirtualServerIds="false">
+                        <urn:AttributeMap Name="mail" Type="Provider Claims" Value="sub"/>
+                        <urn:AttributeMap Name="subject" Type="Provider Claims" Value="sub"/>
+                        <urn:TokenAuthorizationIssuanceCriteria/>
+                    </urn:ConnectionContractMapping>
+                    <urn:AccountLinkingAndMapping Type="mapping" IncludeAdditionalAttributes="false"/>
+                    <urn:ErrPageMsg>errorDetail.spSsoFailure</urn:ErrPageMsg>
+                    <urn:OAuthApcId>Zxp6N6W5PH9onACT</urn:OAuthApcId>
+                </urn:IDP>
+            </urn:RoleExtension>
+        </md:Extensions>
+        <md:SingleSignOnService Binding="oauth:authz" Location="https://localhost:9032/as/authorization.oauth2"/>
+    </md:IDPSSODescriptor>
+    <md:RoleDescriptor protocolSupportEnumeration="OIDC" xsi:type="urn:PFOIDCRoleDescriptorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <md:Extensions>
+            <urn:RoleExtension LastModified="2020-07-16T01:00:24.480Z"/>
+        </md:Extensions>
+        <urn:OpenIDConnectSettings>
+            <urn:TokenEndpoint>https://localhost:9032/as/token.oauth2</urn:TokenEndpoint>
+            <urn:JWKSUri>https://localhost:9032/pf/JWKS</urn:JWKSUri>
+            <urn:Scopes>openid</urn:Scopes>
+            <urn:Profile>BASIC</urn:Profile>
+            <urn:UserInfoEndpoint>https://localhost:9032/idp/userinfo.openid</urn:UserInfoEndpoint>
+            <urn:ClientID>External-OIDC</urn:ClientID>
+            <urn:ClientSecret>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjIuMiJ9..88SmCN_aQ9T6LzX5J1inUw.SV-votVsD7FNWECr77z8JQ.bZEn3tmlG4aN-EkIC-9kNw</urn:ClientSecret>
+            <urn:BasicAuth>true</urn:BasicAuth>
+            <urn:PrivateJwtAuth>false</urn:PrivateJwtAuth>
+        </urn:OpenIDConnectSettings>
+    </md:RoleDescriptor>
+    <md:RoleDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xsi:type="urn:PFAvailableCertsRoleDescriptorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <md:ContactPerson contactType="administrative"/>
+</md:EntityDescriptor>

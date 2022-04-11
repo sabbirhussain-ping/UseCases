@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="SMTP" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="From Address">ping0identity@gmail.com</urn:Field>
+        <urn:Field name="Email Server">smtp.gmail.com</urn:Field>
+        <urn:Field name="SMTP Port">587</urn:Field>
+        <urn:Field name="Encryption Method">SSL</urn:Field>
+        <urn:Field name="SMTPS Port">465</urn:Field>
+        <urn:Field name="Verify Hostname">true</urn:Field>
+        <urn:Field name="UTF-8 Message Header Support">false</urn:Field>
+        <urn:Field name="Username">ping0identity@gmail.com</urn:Field>
+        <urn:Field name="Password">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4zLjIuMCJ9..4RT1CU1Pk0f3lpOHsoT5RQ.dZiqxJ_WioY_BcfcISuhwQ.50_qbddMpxAq9TFyXf37fA</urn:Field>
+        <urn:Field name="Test Address">sabbirhussain@pingidentity.com</urn:Field>
+        <urn:Field name="Connection Timeout">30</urn:Field>
+        <urn:Field name="Retry Attempt">2</urn:Field>
+        <urn:Field name="Retry Delay">2</urn:Field>
+        <urn:Field name="Enable SMTP Debugging Messages">false</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="Connection Timeout">30</urn:Field>
+        <urn:Field name="Retry Attempt">2</urn:Field>
+        <urn:Field name="Retry Delay">2</urn:Field>
+        <urn:Field name="Enable SMTP Debugging Messages">false</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables/>
+</urn:PluginConfiguration>
