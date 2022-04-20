@@ -5,4 +5,5 @@
     <con:map name="External-IdP"/>
     <con:map name="https://localhost:9032"/>
     <con:map name="https://op.externaloidc.com:9032"/>
+    <con:map name="PingOne-UAT"/>
 </con:config>

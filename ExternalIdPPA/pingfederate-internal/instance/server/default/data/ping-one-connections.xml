@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pingOneConnectionsConfig>
+    <connections>
+        <active>true</active>
+        <creationDate>2022-04-20T21:39:01.048Z</creationDate>
+        <credentialId>d64212ae-774a-4a57-943c-e79b71068d49</credentialId>
+        <encryptedCredential>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4yLjUuMCJ9..JoeFx1eo1sJg0YtbWFOrHg.g3eGaXeWHyF2k3jBTX3Qqc8imRhb6i93-IEwWsfL9CCHULNX4j57_-gPqdJi5Ingk2NCYRA-kSb2yuFQM9KKlOUMO3cZxJNXlBmny1zSvOBeiLPGOHaxWHjgW5V8XXnos2PsixBS3GcjHRhViFM5W0xTEm4dV59K2_AOjRzrzIz3qKeEh9bO6G8c_xaaGZVGIgLqpkPKNVtcYrWPMZxmInJ6s9RqTkv0v7sFKZR5LUrNN-dQK7PA8lpA1kyQgMxmK4l-n7m1Tw7NsIDvLna2Lo4-P807JIWVnLTiBMlGKlECtpiLDBUGQ8xD0cg1_uWifnlbMdWBOxJ300ME8lLD76cyI9_Q_rk4h_HtxoRyb5bG5BdbtfeYnoovwmj6oPIHuH_T8GkztoxdZ8y-4Uh7-nVnr6e0XgPOkFuJ_PDJezE0enN3pJfFYrrApoOrwsAmGJIcHgviaOIlycaA_oXSrj17ojBoL1zJBRWBc1OGJeJ18ildW30ge80pTSrVER4nQN4dd9-vW4rZb_7mqaaWZvHuZkdVo7vsWm-nd5N24U7Rw_74zib42pyncXLbOjy_SXKGiTYIErvAfWSqiFgldxqsvImW4EINJ6ynlhg5WO8eUPBffOGzCD7CKSBQfZr1GmD6Fr38x1AkpvOj1bV1FFD75mYGILSpt25aBJANbmPoqmY2adjccyo6s7BAfLskuUU7y5XdwImG9D9qt_Ow02njXcmldmmSdo2fOnnlSARQjyKKSgXA0XTr7d0Wctz63DQ5m538KRRMYMyE0xTBnSUxQB0TUdvXbM5c_siiCCo1s4hPU8sTVovZd3xl7nu5Cedd32cKXWJzENb4WoOMVFdj6ZtnLYmA4D_Hk_q2tmx4ZlBUGQLfrYIsLIhVMZertYDb9ZrSp5dJ1-Le3TX6cOs-g275jhjaTP6cKd1a-zzpFBqS__qNW7SvjuSWdYNawg2UyeDjj2HRrvJ2LRXj_L-1q-rGXrBArfDuWw-CYUWgR-vG3QezZFn2gkfqUYUppkQU_uwlEbflu2dj8ufMhjyOU9Q6jW-jGXthkzkOn3yARtBfJ3Bj8_CMUAV_atAEEFmuKRd80Q_p4D-sSuuo6iIkKoIkmCVtVfgNFJDGGqxLGUfR_bL0AuOtRjsNsEefKTZSEXiP_8s23Ta43bOeZGF7yMUgLf2aKE6_5LPOl6hvAHGrTAYComVu9uWqeJ6sfy0sKESlq9cslej3AalbqDVoWLfs8dx2jis9lJsknEqkam0NnqHQ1IhTwqjNPtFOWF3v2rYH8R4BaXS1V_lxNCIMqfWFK0RgI-s1gS-HUPzZfTHk2nw-mS4G_5Nac6MNbQRczPVOG00BKSxpnt9TRnmvFEdGDXscamL7vF3oCs65osxGWQ3UWDvXqHc23VGwlvmTbiLgQfE4Vzf0lKmwGnjmhnilNeARIzqRNM1KO45npHS-2umaH1nYcf9SpMdNbxx5sCLVjiBOUBueTU0Ub8V_tX2jlpRg4e1CJNZioDbl1L7ce_pJVfPeGzOzya-FM207jSC4xyUs17kEMpjVBNaOrjrC0ORJv0FHhEJrbGIKE7tHfFi2XbXmOCFsvoiQQOXLiw2UMJCbmNw1-GQ38kOYaDfLE4p3_Up0fcfM4-pTXiZjjit0z9ycFNcQRx4xcFxo53ewNYaztklBbhe76g.gUfdb_qQYCibUoSk4aY-DA</encryptedCredential>
+        <environmentId>26e57a75-24a6-47fa-9569-960674c072cc</environmentId>
+        <id>APguptF8RkX5Agne2Uh3Op</id>
+        <name>Ping Identity Corporation_a48e7</name>
+        <organizationName>Ping Identity Corporation_a48e7</organizationName>
+        <pingOneAuthenticationApiEndpoint>https://auth.pingone.com</pingOneAuthenticationApiEndpoint>
+        <pingOneConnectionId>92ee1b26-ed14-40fb-b7e1-b580fb4fad0d</pingOneConnectionId>
+        <pingOneManagementApiEndpoint>https://api.pingone.com</pingOneManagementApiEndpoint>
+        <region>North America</region>
+    </connections>
+</pingOneConnectionsConfig>
