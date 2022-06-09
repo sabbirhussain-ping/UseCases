@@ -2,7 +2,7 @@
 <urn:AdapterConfiguration authnCtxClassRef="" isInheritAttributeSettings="false" isInheritAttributeMapping="false" maskOgnlValues="false" uniqueUserKeyField="pf_none" isInheritExtendedContractAttributes="false" name="P1MFA" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields>
         <urn:Field name="PingOne Environment">APguptF8RkX5Agne2Uh3Op|26e57a75-24a6-47fa-9569-960674c072cc</urn:Field>
-        <urn:Field name="PingOne Population">4643d9e3-4bcf-4581-af46-19d935e7bc5b</urn:Field>
+        <urn:Field name="PingOne Population">71a3323b-90d9-4f6c-8ae9-238e4ec1600d</urn:Field>
         <urn:Field name="Application">6a62cfb7-ba73-4ea5-8801-db467fae831f</urn:Field>
         <urn:Field name="Environment ID"/>
         <urn:Field name="Region"/>
@@ -18,12 +18,12 @@
         <urn:Field name="Test Username">sabbirhussain</urn:Field>
         <urn:Field name="HTML Template Prefix">pingone-mfa</urn:Field>
         <urn:Field name="Messages Files">pingone-mfa-messages</urn:Field>
-        <urn:Field name="Prompt Users to Set Up MFA">false</urn:Field>
+        <urn:Field name="Prompt Users to Set Up MFA">true</urn:Field>
         <urn:Field name="Allow Users to Skip MFA Setup">false</urn:Field>
-        <urn:Field name="Allow Users to Add Additional Authentication Methods">false</urn:Field>
-        <urn:Field name="Provision Users and Authentication Methods">false</urn:Field>
-        <urn:Field name="Provision Authentication Methods">false</urn:Field>
-        <urn:Field name="Update Authentication Methods">false</urn:Field>
+        <urn:Field name="Allow Users to Add Additional Authentication Methods">true</urn:Field>
+        <urn:Field name="Provision Users and Authentication Methods">true</urn:Field>
+        <urn:Field name="Provision Authentication Methods">true</urn:Field>
+        <urn:Field name="Update Authentication Methods">true</urn:Field>
         <urn:Field name="Enable Cookie Based Tracking">false</urn:Field>
         <urn:Field name="Enforce Device Selection">false</urn:Field>
         <urn:Field name="Use Password Config Attribute"/>
@@ -51,12 +51,12 @@
         <urn:Field name="Test Username">sabbirhussain</urn:Field>
         <urn:Field name="HTML Template Prefix">pingone-mfa</urn:Field>
         <urn:Field name="Messages Files">pingone-mfa-messages</urn:Field>
-        <urn:Field name="Prompt Users to Set Up MFA">false</urn:Field>
+        <urn:Field name="Prompt Users to Set Up MFA">true</urn:Field>
         <urn:Field name="Allow Users to Skip MFA Setup">false</urn:Field>
-        <urn:Field name="Allow Users to Add Additional Authentication Methods">false</urn:Field>
-        <urn:Field name="Provision Users and Authentication Methods">false</urn:Field>
-        <urn:Field name="Provision Authentication Methods">false</urn:Field>
-        <urn:Field name="Update Authentication Methods">false</urn:Field>
+        <urn:Field name="Allow Users to Add Additional Authentication Methods">true</urn:Field>
+        <urn:Field name="Provision Users and Authentication Methods">true</urn:Field>
+        <urn:Field name="Provision Authentication Methods">true</urn:Field>
+        <urn:Field name="Update Authentication Methods">true</urn:Field>
         <urn:Field name="Enable Cookie Based Tracking">false</urn:Field>
         <urn:Field name="Enforce Device Selection">false</urn:Field>
         <urn:Field name="Use Password Config Attribute"/>
